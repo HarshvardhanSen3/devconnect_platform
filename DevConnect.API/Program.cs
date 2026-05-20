@@ -71,6 +71,7 @@ namespace DevConnect.API
             app.MapControllers();
             Log.Information("DevConnect API is starting...");
             app.Run();
+            
         }
     }
 }
